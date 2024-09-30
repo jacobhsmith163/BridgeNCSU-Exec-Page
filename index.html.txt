@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Executive Board Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 15px 0;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.2em;
+        }
+        ul li a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Executive Board Resources</h1>
+        <ul>
+            <li><a href="https://mail.yourcompany.com">Company Email</a></li>
+            <li><a href="https://docs.yourcompany.com">Shared Documents</a></li>
+            <li><a href="https://calendar.yourcompany.com">Board Calendar</a></li>
+            <li><a href="https://meetings.yourcompany.com">Meeting Schedule</a></li>
+            <li><a href="https://intranet.yourcompany.com/reports">Financial Reports</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
